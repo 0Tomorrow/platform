@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+server:
+  port: 9004
+spring:
+  application:
+    name: zuul-server
+zuul:
+  #需要忽略的头部信息，不在传播到其他服务
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+  routes:
+    user:
+      path: /user/**
+      serviceId: user-server
+    cloud-storage:
+      path: /email/**
+      serviceId: email-server

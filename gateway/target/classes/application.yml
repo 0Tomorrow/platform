@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+server:
+  port: 9004
+spring:
+  application:
+    name: zuul-server
+zuul:
+  #��Ҫ���Ե�ͷ����Ϣ�����ڴ�������������
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+  routes:
+    user:
+      path: /user/**
+      serviceId: user-server
+    cloud-storage:
+      path: /email/**
+      serviceId: email-server

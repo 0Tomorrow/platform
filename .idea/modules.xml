@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-data/common-data.iml" filepath="$PROJECT_DIR$/common/common-data/common-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-lang/common-lang.iml" filepath="$PROJECT_DIR$/common/common-lang/common-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-service/common-service.iml" filepath="$PROJECT_DIR$/common/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-client/user-client.iml" filepath="$PROJECT_DIR$/user/user-client/user-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-core/user-core.iml" filepath="$PROJECT_DIR$/user/user-core/user-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-server/user-server.iml" filepath="$PROJECT_DIR$/user/user-server/user-server.iml" />
+    </modules>
+  </component>
+</project>
